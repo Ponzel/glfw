@@ -177,3 +177,9 @@ if (GLFW_INSTALL)
     endif()
 endif()
 
+
+add_definitions(-DGLFW_INCLUDE_VULKAN)
+include_directories(
+    ../vulkan/include/
+    
+)
